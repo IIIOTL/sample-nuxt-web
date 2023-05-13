@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build && copyfiles web.config index.js ./.output",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "copyfiles": "^2.4.1",
+    "fibers": "^5.0.3",
+    "nuxt": "^3.4.3",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2"
+  }
+}
